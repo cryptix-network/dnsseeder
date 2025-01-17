@@ -1,9 +1,11 @@
 module github.com/cryptix-network/dnsseeder
 
-go 1.19
+go 1.23
+
+toolchain go1.23.5
 
 require (
-	github.com/cryptix-network/cryptixd v0.13.1
+	github.com/cryptix-network/cryptixd v0.13.2
 	github.com/jessevdk/go-flags v1.5.0
 	github.com/miekg/dns v1.1.59
 	github.com/pkg/errors v0.9.1
